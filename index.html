@@ -1,0 +1,216 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>jQuery Mobile Web App</title>
+<link href="jquery-mobile/jquery.mobile.theme-1.0.min.css" rel="stylesheet" type="text/css"/>
+<link href="jquery-mobile/jquery.mobile.structure-1.0.min.css" rel="stylesheet" type="text/css"/>
+<script src="jquery-mobile/jquery-1.6.4.min.js" type="text/javascript"></script>
+<script src="jquery-mobile/jquery.mobile-1.0.min.js" type="text/javascript"></script>
+</head> 
+<body>
+<div data-role="page" id="Home">
+  <div data-role="header">
+    <h1>Mobile Application</h1>
+  </div>
+  <div data-role="content">
+  <center><img src="jquery-mobile/images/car1.jpg" width="500" height="150" alt="appspic"></center>
+  <center> Welcome to Mobile Application! <br><br> We offer information on the latest Free, Paid or Top Grossing mobile Apps.
+  Please select one of the options below to continue.<br></center>
+    <ol data-role="listview" data-inset="true">
+      <li><a href="#More">More Info</a></li>
+      <li><a href="#Paid">Apps</a></li>
+      <li><a href="#Contact">Contact</a></li>
+    </ol>
+  
+  </div>
+  <div data-role="footer">
+    <h4>&copy; 2013 Emily Limb</h4>
+  </div>
+</div>
+
+<div data-role="page" id="More">
+  <div data-role="header">
+    <h1>More Info</h1>
+  </div>
+  <div data-role="content">
+ <center> This App will show which 5 Apps are the Top Grossing, Top Free  and Top Paid. So you will be able to keep track of the Apps that are currently the most popluar. <br>	<br>If there is information on an App that you seek and it is not provided then please email us through our Contact Us page with your question, query or comment. We would love to hear from you. Enjoy.</center><br><br><br><br>
+        
+  <ol data-role="listview" data-inset="true">
+      <li><a href="#Home">Home</a></li>
+      <li><a href="#Paid">Apps</a></li>
+      <li><a href="#Contact">Contact</a></li>
+    </ol>
+  
+  </div>
+  <div data-role="footer">
+    <h4>&copy; 2013 Emily Limb</h4>
+  </div>
+</div>
+ 
+<div data-role="page" id="Paid">
+  <div data-role="header">
+    <h1>Apps</h1>
+  </div>
+  <div data-role="content">
+    <div data-role="collapsible-set">
+      <div data-role="collapsible">
+        <h3>Top Paid</h3>
+        <p>
+        
+         <h3>WhatsApp</h3>
+         <img src="jquery-mobile/images/whats.png" width="70" height="70" alt="whats">
+	      <p>Price: £0.49 <br>
+          Description:  A cross platform messenger for smart phones.
+          </p>
+          
+          <h3>Angry Birds:Star Wars</h3>
+          <img src="jquery-mobile/images/angry.png" width="70" height="70" alt="birds">
+	      <p>Price: £0.69 <br>
+          Description: A long time ago in a galaxy far far away.... the rebel birds go up against the pigtroopers.  
+          </p>
+          
+          <h3>Sleep Cycle</h3>
+             <img src="jquery-mobile/images/sleep.png" width="70" height="70" alt="sleep">
+	      <p>Price: £0.69 <br>
+          Description: Sleep Cycle tracks when you are in your lightest sleep mode and wakes you up refreshed and well rested. 
+          </p>
+       
+          <h3>Fifa 13</h3>
+           <img src="jquery-mobile/images/Fifa.png" width="70" height="70" alt="fifa">
+	      <p>Price: £2.99 <br>
+          Description: Battle your friends online with Fiifa 13, check out our new ultimate team feature.
+          </p>
+          
+          <h3>iFitness Pro</h3>
+          <img src="jquery-mobile/images/fitness.png" width="70" height="70" alt="fit">
+	      <p>Price: £0.69 <br>
+          Description: 
+          </p>
+        
+        </p>
+      </div>
+      <div data-role="collapsible" data-collapsed="true">
+        <h3>Top Free</h3>
+        <p>
+        
+	      <h3>BBC Sport</h3><img src="jquery-mobile/images/bbc.png" width="70" height="70" alt="bbc">
+	      <p>Price: Free <br>
+          Description: Get live update of the latest sporting action to your mobile. </p>
+        
+	    
+	      <h3>Google Maps</h3>
+          <img src="jquery-mobile/images/maps.png" width="70" height="70" alt="maps">
+	      <p>Price: Free <br>
+          Description: Google Maps is a quick and easy way to navigate yourself. G Maps are east to use and accurate. Never find yourself lost again with Google Maps. </p>
+    
+	    
+	      <h3>Darts Night</h3>
+          <img src="jquery-mobile/images/darts.png" width="70" height="70" alt="darts">
+	      <p>Price: Free <br>
+          Description: Play just like a real game of darts. Go head-to-head, challenge your friends and play on the go.</p>
+   
+        	   
+	      <h3>Logo Quiz</h3>
+          <img src="jquery-mobile/images/logos.png" width="70" height="70" alt="logos">
+	      <p>Price: Free <br>
+          Description: Guess the logo of brands from all over the world.</p>
+     	    
+       
+	      <h3>Youtube</h3>
+          <img src="jquery-mobile/images/youtube.png" width="70" height="70" alt="youtube">
+	      <p>Price: Free <br>
+          Description: Watch video through your phone from the catolog. subscrite and keep up with posts for videos.</p>
+      
+        </p>
+      </div>
+      <div data-role="collapsible" data-collapsed="true">
+        <h3>Top Grossing</h3>
+        <p>
+           
+	      <h3>Candy Crush Saga</h3>
+          <img src="jquery-mobile/images/candy.png" width="70" height="70" alt="candy">
+	      <p>Price: Free <br>
+          Description: Swap and match your way through this tasty advanture. </p>
+       
+	<h3>Clash Of Clans</h3>
+    <img src="jquery-mobile/images/clan.png" width="70" height="70" alt="clan">
+	      <p>Price: Free <br>
+          Description: Build villages, teach your warriors how to fight and join in epic battles online. </p>
+        
+	      <h3>The Simpsons:Tapped Out</h3>
+          <img src="jquery-mobile/images/simp.png" width="70" height="70" alt="simp">
+	      <p>Price: Free <br>
+          Description: After Homer causes a meltdown in Springfield it is up to you to rebuild the city.</p>
+     
+	      <h3>Fifa 13</h3>
+          <img src="jquery-mobile/images/Fifa.png" width="70" height="70" alt="fifa">
+	      <p>Price: £2.99 <br>
+          Description: Battle your friends online with Fiifa 13, check out our new ultimate team feature.</p>
+       
+	      <h3>Hay Day</h3>
+          <img src="jquery-mobile/images/hay.png" width="70" height="70" alt="hay">
+	      <p>Price: Free <br>
+          Description: Go back to Nature with Hay Day. work the land, sheer sheep and make a name for yourself.</p>
+                
+        </p>
+      </div>
+    </div>
+   <br><br><br><br>
+  <ol data-role="listview" data-inset="true">
+      <li><a href="#Home">Home</a></li>
+      <li><a href="#More">More Info</a></li>
+      <li><a href="#Contact">Contact</a></li>
+    </ol>
+  
+  </div>
+  <div data-role="footer">
+    <h4>&copy; 2013 Emily Limb</h4>
+  </div>
+</div>
+
+<div data-role="page" id="Contact">
+  <div data-role="header">
+    <h1>Contact Us</h1>
+  </div>
+  <div data-role="content">
+    <div data-role="fieldcontain">
+      <label for="textinput">Your Name:</label>
+      <input type="text" name="textinput" id="textinput" value=""  />
+      <div data-role="fieldcontain">
+        <label for="textinput2">Your Email:</label>
+        <input type="text" name="textinput2" id="textinput2" value=""  />
+        <div data-role="fieldcontain">
+          <label for="textarea">Your comment, Question or query:</label>
+          <textarea cols="40" rows="8" name="textarea" id="textarea"></textarea>
+          <button>Submit</button>
+          
+         
+        </div>
+        
+      </div>
+      
+    </div>
+  
+  <ol data-role="listview" data-inset="true">
+      <li><a href="#Home">Home</a></li>
+      <li><a href="#More">More Info</a></li>
+      <li><a href="#Paid">Apps</a></li>
+    </ol>
+  
+  </div>
+  <div data-role="footer">
+    <h4>&copy; 2013 Emily Limb</h4>
+  </div>
+</div>
+ 
+
+
+
+
+
+
+
+
+</body>
+</html>
